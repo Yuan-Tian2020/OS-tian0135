@@ -1,6 +1,7 @@
 
 
 import "string"
+#pragma link("mega65hyper.ld")
 
 
 const char* RASTER = 0xd012;
