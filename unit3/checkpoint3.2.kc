@@ -58,7 +58,7 @@ void print_hex (unsigned short value){
        print_to_screen(hex);
 }
    
-void text_memory (){
+void test_memory (){
         for (mem_start; mem_start < $7fff; mem_start++){
             
                for (char value = 0;value <255; value++) {
@@ -298,8 +298,8 @@ void reset() {
     print_newline();
     print_to_screen("testing hardware");
     
-  
-
+    test_memory();
+    
     exit_hypervisor();
 }
 
