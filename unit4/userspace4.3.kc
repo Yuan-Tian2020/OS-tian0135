@@ -1,0 +1,8 @@
+// userspace4.3.kc
+import "myabi"
+
+void main(){
+call_syscall01();
+call_syscall02();
+while(true) continue;
+}
